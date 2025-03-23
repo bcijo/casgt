@@ -82,7 +82,7 @@ python main.py --dataset bitcoin_alpha --model_type inf --devices cuda:0
 --`dropout`: Dropout rate\
 --`k`: Cross-validation fold\
 --`output_dir`: Directory to save model checkpoints\
---`model_type`: Model operation mode ('pt' for pre-train, 'ft' for fine-tune, 'inf' for inference)\
+--`model_type`: Model operation mode ('pt' for pre-train, 'ft' for fine-tune, 'inf' for inference)
 
 ## Model Architecture
 CASGT consists of several components:
