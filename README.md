@@ -107,7 +107,7 @@ python main.py --dataset bitcoin_alpha --model_type inf --devices cuda:0
 
 ## Results
 ## Citation
-##License        
+## License        
 
 The implementation builds upon ideas from several graph neural network architectures
 Thanks to the authors of the network datasets used for evaluation
