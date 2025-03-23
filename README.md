@@ -70,19 +70,19 @@ python main.py --dataset bitcoin_alpha --model_type inf --devices cuda:0
 ```
 ## Command Line Arguments
 
---`devices`: Computing device (e.g., 'cpu', 'cuda:0')
---`seed`: Random seed for reproducibility
---`epochs`: Number of training epochs
---`lr`: Learning rate
---`weight_decay`: L2 regularization strength
---`dataset`: Dataset name (must match folder name in experiment-data)
---`dim`: Embedding dimension
---`fea_dim`: Feature embedding dimension
---`batch_size`: Training batch size
---`dropout`: Dropout rate
---`k`: Cross-validation fold
---`output_dir`: Directory to save model checkpoints
---`model_type`: Model operation mode ('pt' for pre-train, 'ft' for fine-tune, 'inf' for inference)
+--`devices`: Computing device (e.g., 'cpu', 'cuda:0')\
+--`seed`: Random seed for reproducibility\
+--`epochs`: Number of training epochs\
+--`lr`: Learning rate\
+--`weight_decay`: L2 regularization strength\
+--`dataset`: Dataset name (must match folder name in experiment-data)\
+--`dim`: Embedding dimension\
+--`fea_dim`: Feature embedding dimension\
+--`batch_size`: Training batch size\
+--`dropout`: Dropout rate\
+--`k`: Cross-validation fold\
+--`output_dir`: Directory to save model checkpoints\
+--`model_type`: Model operation mode ('pt' for pre-train, 'ft' for fine-tune, 'inf' for inference)\
 
 ## Model Architecture
 CASGT consists of several components:
