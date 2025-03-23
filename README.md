@@ -36,15 +36,6 @@ cd casgt
 ```bash
 pip install -r requirements.txt
 ```
-The `requirements.txt` file should include:
-```bash
-torch>=1.9.0
-networkx>=2.6
-scipy>=1.7.0
-numpy>=1.20.0
-tqdm>=4.62.0
-scikit-learn>=0.24.0
-```
 ## Usage
 ### Data Preparation
 Place your network data in the edgelist format in the experiment-data/{dataset}/ directory. Each file should contain edges in the format:
